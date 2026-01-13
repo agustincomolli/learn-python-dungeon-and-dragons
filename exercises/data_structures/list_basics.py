@@ -2,12 +2,9 @@
 Crear una lista vacía llamada inventory
 
 Agregar:
-
-"espada"
-
-"escudo"
-
-"poción"
+    "espada"
+    "escudo"
+    "poción"
 
 Mostrar la lista completa
 """

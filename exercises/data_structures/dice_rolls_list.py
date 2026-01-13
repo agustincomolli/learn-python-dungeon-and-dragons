@@ -6,7 +6,6 @@ Tirar 3 d6
 Guardar cada tirada
 
 Mostrar:
-
     todas las tiradas
     la mayor
     la suma total

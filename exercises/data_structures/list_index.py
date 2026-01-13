@@ -1,9 +1,7 @@
 """
 Mostrar:
-
-el primer objeto
-
-el último objeto
+    el primer objeto
+    el último objeto
 """
 
 inventory = []

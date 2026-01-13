@@ -4,10 +4,9 @@ Tirar 2 d20
 Guardarlos en una lista
 
 Mostrar:
-
-las tiradas
-ventaja (mayor)
-desventaja (menor)
+    las tiradas
+    ventaja (mayor)
+    desventaja (menor)
 """
 
 import random
@@ -31,7 +30,7 @@ def roll_dice(quantity: int, sides: int) -> list:
     return rolls
 
 
-rolls = roll_dice(2, 10)
+rolls = roll_dice(2, 20)
 print(f"Tiradas: {rolls}")
 print(f"Ventaja: {max(rolls)}")
 print(f"Desventaja: {min(rolls)}")

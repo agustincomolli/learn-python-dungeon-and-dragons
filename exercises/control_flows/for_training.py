@@ -2,9 +2,8 @@
 Pedir cuántos días entrena el aventurero
 
 Mostrar:
-
-Día 1: entrenamiento completo
-Día 2: entrenamiento completo
+    Día 1: entrenamiento completo
+    Día 2: entrenamiento completo
 ...
 """
 
