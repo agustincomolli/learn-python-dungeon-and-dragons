@@ -8,3 +8,5 @@ su Clase y su Ciudad de Origen. Al final, debe imprimir una frase épica como:
 character_name = input("¿Cuál es tu nombre aventurero? ")
 character_class = input("¿A qué te dedicas? ")
 character_city = input("¿De dónde vienes aventurero? ")
+
+print(f"{character_name}, el {character_class} de {character_city}, ha cruzado las puertas de la ciudad.")
