@@ -11,3 +11,12 @@ Quita ese objeto de la lista.
 Muestra el inventario final y destaca cuál es el primer objeto de la lista 
 (tu objeto principal) usando f-strings.
 """
+
+print("*** El Gestor de Inventario de Aelan ***\n")
+
+inventory = ["Vara de cristal", "Grimorio", "Raciones"]
+
+print(f"Inventario: {inventory} - {len(inventory)} objetos.\n")
+inventory.append(input("¿Qué objeto acabas de encontrar? "))
+inventory.remove(input("¿Qué objeto quieres usar/tirar? "))
+print(f"\nInventario final: {inventory}. Primer item: {inventory[0]}")
